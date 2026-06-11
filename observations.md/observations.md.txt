@@ -1,0 +1,44 @@
+# HerPulse - Exploratory Data Analysis Findings
+
+## Dataset Overview
+
+* Dataset contains 541 patient records and 45 features.
+* The target variable is **PCOS (Y/N)** indicating whether a patient has PCOS.
+
+## PCOS Distribution
+
+* 364 records belong to women without PCOS.
+* 177 records belong to women with PCOS.
+
+## BMI Analysis
+
+* Women diagnosed with PCOS have a higher average BMI compared to women without PCOS.
+
+## Weight Analysis
+
+* Women with PCOS show a higher average body weight than women without PCOS.
+
+## Correlation Analysis
+
+The features most strongly associated with PCOS are:
+
+1. Follicle Number (Right Ovary)
+2. Follicle Number (Left Ovary)
+3. Skin Darkening
+4. Hair Growth
+5. Weight Gain
+6. Irregular Menstrual Cycles
+7. Fast Food Consumption
+
+## Key Insights
+
+* Follicle count appears to be the strongest indicator of PCOS in this dataset.
+* Physical symptoms such as skin darkening and excessive hair growth show strong associations with PCOS.
+* Lifestyle-related factors such as weight gain and fast food consumption also demonstrate notable relationships.
+* Women with PCOS tend to have higher average BMI and weight compared to women without PCOS.
+
+## Next Steps
+
+* Build interactive visualizations.
+* Develop a Streamlit dashboard.
+* Enable exploration of PCOS-related patterns through filters and charts.
