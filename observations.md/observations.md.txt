@@ -42,3 +42,13 @@ The features most strongly associated with PCOS are:
 * Build interactive visualizations.
 * Develop a Streamlit dashboard.
 * Enable exploration of PCOS-related patterns through filters and charts.
+
+Day 4 - Data Preprocessing
+
+- Dataset initially contained 45 columns.
+- Removed Unnamed: 44 due to excessive missing values.
+- Removed Sl. No and Patient File No. as identifier columns.
+- No duplicate records were found.
+- Filled missing value in Marraige Status (Yrs) using median.
+- Filled missing value in Fast food (Y/N) using mode.
+- Saved cleaned dataset with 541 records and 42 features.
