@@ -1,43 +1,58 @@
+
 # HerPulse 💜
 
-A data-driven analytics project exploring patterns, lifestyle factors, and insights related to PCOS and women's wellness.
+## Overview
 
-## Project Goals
-- Analyze PCOS-related data
-- Identify factors associated with PCOS
-- Build a machine learning model for prediction
-- Create an interactive dashboard
+HerPulse is a machine learning project designed to analyze health and lifestyle factors associated with Polycystic Ovary Syndrome (PCOS) and predict the likelihood of PCOS using a Random Forest Classifier.
 
 ## Dataset
-PCOS dataset containing health, lifestyle, and hormonal factors.
 
-## Exploratory Data Analysis Completed
-- PCOS Distribution
-- BMI Analysis
-- Weight Analysis
-- Correlation Analysis
+* 541 patient records
+* 45 original features
+* Cleaned and preprocessed before model training
 
-## Visualizations
-Screenshots are available in the images folder.
+## Exploratory Data Analysis
 
-## Tech Stack
-- Python
-- Pandas
-- Matplotlib
-- Seaborn
-- Scikit-learn
-- Streamlit
-- GitHub
+Key analyses performed:
 
-## Project Status
-✅ Data Understanding
+* PCOS distribution analysis
+* BMI comparison
+* Weight comparison
+* Correlation analysis
+* Feature importance analysis
 
-✅ Exploratory Data Analysis
+## Machine Learning
 
-⬜ Data Preprocessing
+Model Used:
 
-⬜ Machine Learning
+- Random Forest Classifier
 
-⬜ Dashboard Development
+## Model Evaluation
 
-⬜ Deployment
+- Accuracy: 87.16%
+- Confusion Matrix generated for performance evaluation
+- Feature Importance Analysis performed
+- Random Forest Classifier successfully identified key PCOS indicators
+
+## Top Predictive Factors
+
+* Follicle No. (R)
+* Follicle No. (L)
+* Skin Darkening
+* Hair Growth
+* Weight Gain
+* AMH (ng/mL)
+
+## Project Structure
+
+* Data Cleaning
+* Exploratory Data Analysis
+* Feature Engineering
+* Machine Learning
+* Model Evaluation
+
+## Future Improvements
+
+* Streamlit Web Application
+* Real-time Prediction Interface
+* Cloud Deployment
