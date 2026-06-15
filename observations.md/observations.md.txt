@@ -52,3 +52,33 @@ Day 4 - Data Preprocessing
 - Filled missing value in Marraige Status (Yrs) using median.
 - Filled missing value in Fast food (Y/N) using mode.
 - Saved cleaned dataset with 541 records and 42 features.
+## Feature Importance Analysis
+
+The Random Forest model identified the following as the most influential features for predicting PCOS:
+
+1. Follicle No. (R)
+2. Follicle No. (L)
+3. Skin darkening (Y/N)
+4. Weight gain (Y/N)
+5. Hair growth (Y/N)
+6. AMH (ng/mL)
+7. Cycle (R/I)
+8. LH (mIU/mL)
+9. Cycle length (days)
+10. Age (yrs)
+
+Observation:
+Follicle count in both ovaries was the strongest predictor of PCOS. Clinical symptoms such as skin darkening, weight gain, and hair growth also showed significant importance. Hormonal indicators such as AMH and LH contributed to the model's predictions.
+
+## Model Evaluation
+
+Accuracy: 87.16%
+
+The Random Forest Classifier performed well on the PCOS dataset.
+
+Key metrics:
+- Accuracy: 87.16%
+- Confusion Matrix generated for evaluation
+- Feature importance analysis performed
+
+The model successfully identified important clinical and hormonal indicators associated with PCOS.
