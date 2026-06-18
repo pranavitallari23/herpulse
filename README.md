@@ -25,14 +25,14 @@ Key analyses performed:
 
 Model Used:
 
-- Random Forest Classifier
+* Random Forest Classifier
 
-## Model Evaluation
+## Model Performance
 
-- Accuracy: 87.16%
-- Confusion Matrix generated for performance evaluation
-- Feature Importance Analysis performed
-- Random Forest Classifier successfully identified key PCOS indicators
+* Algorithm: Random Forest Classifier
+* Accuracy: 88.07%
+* Features Used: 9 Important PCOS Indicators
+* Real-time predictions implemented using Streamlit
 
 ## Top Predictive Factors
 
@@ -51,8 +51,20 @@ Model Used:
 * Machine Learning
 * Model Evaluation
 
-## Future Improvements
+## Completed Features
 
-* Streamlit Web Application
-* Real-time Prediction Interface
-* Cloud Deployment
+✅ Streamlit Web Application
+
+✅ Real-time PCOS Prediction Interface
+
+✅ Random Forest Prediction Model
+
+## Tech Stack
+
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Streamlit
+- Joblib
+- GitHub
