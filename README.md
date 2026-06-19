@@ -5,6 +5,9 @@
 
 HerPulse is a machine learning project designed to analyze health and lifestyle factors associated with Polycystic Ovary Syndrome (PCOS) and predict the likelihood of PCOS using a Random Forest Classifier.
 
+## Live Demo
+
+🌐 Streamlit App: https://herpulse-kzrebuutcwigk5sylwox6k.streamlit.app/
 ## Dataset
 
 * 541 patient records
